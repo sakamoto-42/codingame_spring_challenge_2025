@@ -6,7 +6,7 @@
 /*   By: juduchar <juduchar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/08 16:25:56 by juduchar          #+#    #+#             */
-/*   Updated: 2025/04/08 16:49:46 by juduchar         ###   ########.fr       */
+/*   Updated: 2025/04/08 17:00:44 by juduchar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,6 @@ int	ft_get_hash(int tab[3][3])
 		}
 		i++;
 	}
-	fprintf(stderr, "%d\n", hash);
+	//fprintf(stderr, "%d\n", hash);
 	return (hash);
 }
